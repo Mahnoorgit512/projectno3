@@ -73,10 +73,11 @@
 }
 
 .container1 .row .colmd2 .head1{
+    font-size: 5rem;
     margin-top: 80px;
     color: #023E8A;
     font-weight:bolder;
-    font-size: 4rem;
+    
 }
 .container1 .row .colmd2 .head6{
     margin-top: 5px;
@@ -673,7 +674,7 @@
 
 }
 
-@media (max-width:1380px){
+@media (max-width:1280px){
 
     .container1 .row .col-md .head1{
         margin-top: 20px;
