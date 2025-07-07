@@ -69,7 +69,7 @@
 }
 
 .container1 .row .colmd2{
-    padding: 40px;
+    padding: 50px;
 }
 
 .container1 .row .colmd2 .head1{
@@ -640,10 +640,7 @@
     margin-top: 10px;
    }
 
-   .container7 .row7iii{
-   
-   
-   }
+
 
    .container7 .google{
     font-size: 8px;
@@ -676,6 +673,50 @@
 
 }
 
+@media (max-width:1380px){
+
+    .container1 .row .col-md .head1{
+        margin-top: 20px;
+         font-size: 30px;
+       }
+
+       .container2 .row2 .kard{
+        margin-top: 10px;
+       }
+       
+     .container3 .row .col-md .img-fluid{
+      margin-top: 50px;
+     }  
+
+     .container6 .row .col-md-4 {
+       padding: 0;
+     }
+
+     .container7 .google{
+        font-size: 10px;
+       } 
+    
+       .container7 .reddit{
+        font-size: 10px;
+       }
+    
+       .container7 .stripe{
+        font-size: 10px;
+       }
+       .container7 .spotify{
+        font-size:  10px;
+       }
+       .container7 .pinterest{
+        font-size: 10px;
+       }
+
+       .footer .list3 .signupBtn{
+        margin-top: 3px;
+        padding: 5px;
+       }
+    
+
+}
 
 
 
