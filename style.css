@@ -632,7 +632,14 @@
 
 @media (max-width:768px){
 
-   .container1 .row .col-md .head2{
+    .container1 .row .colmd2{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+   .container1 .row .colmd2 .head2{
     margin-top: 20px;
      font-size: 30px;
    }
