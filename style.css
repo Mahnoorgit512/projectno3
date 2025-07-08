@@ -77,7 +77,6 @@
     margin-top: 70px;
     color: #023E8A;
     font-weight:bolder;
-    
 }
 .container1 .row .colmd2 .head6{
     margin-top: 5px;
@@ -632,16 +631,10 @@
 
 @media (max-width:768px){
 
-    .container1 .row .colmd2{
-        display:flex ;
-        flex-direction: column;
-        justify-content: center;
-
-    }
 
    .container1 .row .colmd2 .head2{
     margin-top: 20px;
-     font-size: 30px;
+    font-size: 30px;
    }
 
    .container2 .row2 .kard{
