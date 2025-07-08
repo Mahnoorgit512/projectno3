@@ -69,13 +69,17 @@
 }
 
 .container1 .row .colmd2{
+    display: flex; justify-content: center;
     padding: 50px;
+    
 }
 
 .container1 .row .colmd2 .head2{
     font-size: 4rem;
     margin-top: 70px;
     color: #023E8A;
+    font-weight: bolder;
+   
 }
 .container1 .row .colmd2 .head6{
     margin-top: 5px;
@@ -633,15 +637,12 @@
 
    .container1 .row .colmd2 .head2{
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 2rem;
    }
 
    .container2 .row2 .kard{
     margin-top: 10px;
    }
-
-
-
    .container7 .google{
     font-size: 8px;
    } 
@@ -673,11 +674,16 @@
 
 }
 
-@media (max-width:1280px){
+@media (max-width:375px){
+    .navbar1 .container{
+        width: 100%;
+        
+
+    }
 
     .container1 .row .col-md .head2{
         margin-top: 20px;
-         font-size: 30px;
+         font-size: 2rem;
        }
 
        .container2 .row2 .kard{
